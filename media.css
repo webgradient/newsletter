@@ -1,0 +1,40 @@
+@media only screen and (max-width:425.7px) {
+    .menu-btn{
+        display: block;
+    }
+
+    .menu-btn.active{
+        transform: rotate(360deg);
+        transition: 0.5s all;
+        filter: invert(0);
+
+    }
+
+    .nav-item{
+        background-color: whitesmoke;
+        height: 100vh;
+        width: 50%;
+        position: absolute;
+        right: -500px;
+        transition: 0.5s all;
+    }
+
+    .nav-item.active{
+        right: 0px;
+    }
+    .list{
+        list-style: none;
+        display: flex;
+
+        align-items:flex-start;
+        flex-direction: column;
+
+    }
+    
+    .li-items{
+        font-size: 22px;
+        margin: 20px 0px;
+        color: black;
+    }
+
+}

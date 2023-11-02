@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container1 {
+  position: relative;
+  /* height: 100vh; */
+  overflow: hidden;
+}
+.allnavbar {
+  position: sticky;
+  width: 100%;
+}
+.navbar {
+  background-color: red;
+  padding: 20px 0;
+  display: flex;
+}
+.name {
+  margin: auto;
+  width: 90%;
+  font-size: 20px;
+}
+.news-name{
+  color: white;
+
+}
+.nav-item {
+  background-color: rgb(247, 245, 245);
+}
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.li-items {
+  font-size: 22px;
+  margin: 5px 20px;
+  color: black;
+  padding: 0px 20px;
+  transition: all 1s;
+}
+.li-items::after {
+  content: "";
+  background-color: red;
+  height: 3px;
+  width: auto;
+  display: block;
+  /* margin-top: 4px; */
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+
+.li-items:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+
+/* hamburger */
+.menu-btn {
+  width: 35px;
+  height: 35px;
+  filter: invert(100%);
+  /* margin-right: ; */
+  display: none;
+}
+
+.poster1 {
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("./poster1.jpg");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.poster-content {
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  /* font-weight: 700; */
+}
+
+.head1 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.heading1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.newscards {
+  width: 90%;
+  /* background-color: grey; */
+  margin: 20px auto;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards {
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  width: 45%;
+  height: auto;
+  /* background-color: white; */
+  text-align: center;
+  padding: 20px 0;
+  /* box-shadow: 0px 0px 1px 2px black; */
+}
+.title {
+  font-size: 25px;
+  color: red;
+  font-weight: 600;
+  margin: 20px 0; 
+}
+.desc {
+  font-size: 15px;
+}
+.cards img {
+  width: 80%;
+  height: 350px;
+  margin: 20px 0;
+}
+.source {
+  font-size: 15px;
+  /* text-align: left; */
+  color: red;
+ text-decoration: underline;
+}
+.summary {
+  font-size: 20px;
+  width: 90%;
+  margin: 20px auto;
+ 
+}
