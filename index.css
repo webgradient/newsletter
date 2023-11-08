@@ -78,8 +78,8 @@ a {
 .poster1 {
   height: 300px;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("./poster1.jpg");
+  background-image: linear-gradient(rgba(0,0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("./poster2.jpeg");
 
   background-position: center;
   background-size: cover;
@@ -99,6 +99,7 @@ a {
   width: 90%;
   margin: 0 auto;
   padding: 20px 0;
+  /* background-color: red; */
 }
 .heading1 {
   font-size: 40px;
