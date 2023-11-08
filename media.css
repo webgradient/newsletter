@@ -62,4 +62,12 @@
         /* box-shadow: 0px 0px 1px 2px black; */
       }
 
+      .foot-section{
+        flex-direction: column;
+      }
+      .foot-section div{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+      }
 }
